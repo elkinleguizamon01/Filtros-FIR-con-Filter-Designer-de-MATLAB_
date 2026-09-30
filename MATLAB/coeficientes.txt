@@ -1,0 +1,8 @@
+type coefficients is array (0 to 34) of signed(15 downto 0);
+signal coeff_s : coefficients := (
+    x"0000", x"FFFE", x"FFFC", x"000D", x"002E", x"0020", 
+    x"FFA6", x"FF24", x"FF9D", x"0165", x"02B9", x"00CA", 
+    x"FB98", x"F880", x"FED4", x"1003", x"236E", x"2BFE", 
+    x"236E", x"1003", x"FED4", x"F880", x"FB98", x"00CA", 
+    x"02B9", x"0165", x"FF9D", x"FF24", x"FFA6", x"0020", 
+    x"002E", x"000D", x"FFFC", x"FFFE", x"0000");
